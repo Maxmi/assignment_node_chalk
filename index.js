@@ -1,5 +1,7 @@
 var log = require('./lib/logger');
+var _ = require('lodash');
+var logs =  require('./data/logs.json');
 
-log('hello', 'info');
-log('world', 'warning');
-log('wow', 'error');
+_.forEach(logs, function(item) {
+    log(item.message, item.level);
+});

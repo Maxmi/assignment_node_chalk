@@ -1,8 +1,7 @@
-assignment_node_hello_world
+assignment_node_chalk
 ===========================
 
-
-Just Node.js saying hello to the world and such.
+print log messages in different colors using npm-chalk package.
 
 
 
